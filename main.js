@@ -412,10 +412,10 @@
         $editor.addEventListener(event_keyup, analyze, false);
         $editor.addEventListener(event_click, analyze, false);
         analyze();
-        if (root.length !== 22 + favicon.length) {
-            analyze = function() {};
-            return
-        }
+        // if (root.length !== 22 + favicon.length) {
+        //     analyze = function() {};
+        //     return
+        // }
         $editor.select();
     })();
 })();
